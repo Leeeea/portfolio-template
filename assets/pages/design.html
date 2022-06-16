@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="" type="image/x-icon">
+
+    <!--=============== REMIX ICONS ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="../css/styles.css">
+
+
+    <!--========= Website Favicon =========-->
+    <link rel="icon" type="image/png" href="../img/fav.png"/>
+
+    <!--========== Website Title ==========-->
+    <title>Portfolio website</title>
+</head>
+<style>
+    .portfolio {
+        padding: 30px;
+        display: grid;
+        grid-gap: 10px;
+        justify-content: center;
+        grid-auto-flow: dense;
+        grid-auto-rows: 300px;
+        grid-template-columns: repeat(auto-fill, 300px);
+    }
+
+    /* 300X300 images */
+    .img1x1 {
+        grid-row: span 1;
+        grid-column: span 1;
+    }
+
+    /* 600X300 images */
+    .img1x2 {
+        grid-row: span 1;
+        grid-column: span 2;
+    }
+
+    /* 300X600 images */
+    .img2x1 {
+        grid-row: span 2;
+        grid-column: span 1;
+    }
+
+    /* 600X600 images */
+    .img2x2 {
+        grid-row: span 2;
+        grid-column: span 2;
+    }
+</style>
+
+<body>
+    <div class="title">
+        <h1>My Designs</h1>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab porro facilis, fugit perferendis iusto
+            cupiditate<br>
+            totam minus ut voluptatum exercitationem placeat enim libero, saepe amet? Cupiditate recusandae rerum ipsum.
+            Neque!
+        </p>
+    </div>
+    <div class="portfolio">
+        <img src="https://picsum.photos/300/?random=1" class="img1x1">
+        <img src="https://picsum.photos/300/?random=11" class="img1x1">
+        <img src="https://picsum.photos/300/600?random=3" class="img2x1">
+        <img src="https://picsum.photos/300/?random=2" class="img1x1">
+        <img src="https://picsum.photos/300/?random=3" class="img1x1">
+        <img src="https://picsum.photos/300/?random=4" class="img1x1">
+        <img src="https://picsum.photos/300/600?random=2" class="img2x1">
+        <img src="https://picsum.photos/300/?random=5" class="img1x1">
+        <img src="https://picsum.photos/300/?random=6" class="img1x1">
+        <img src="https://picsum.photos/300/?random=7" class="img1x1">
+        <img src="https://picsum.photos/300/?random=8" class="img1x1">
+        <img src="https://picsum.photos/300/?random=9" class="img1x1">
+        <img src="https://picsum.photos/300/600?random=1" class="img2x1">
+        <img src="https://picsum.photos/300/600?random=2" class="img2x1">
+        <img src="https://picsum.photos/300/?random=18" class="img1x1">
+        <img src="https://picsum.photos/300/?random=19" class="img1x1">
+    </div>
+
+    <footer>
+        <a href="../../index.html">Home page</a>
+        <p>© Léa Platel - All rigths reserved</p>
+    </footer>
+</body>
+
+</html>

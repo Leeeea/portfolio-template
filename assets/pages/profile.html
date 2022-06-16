@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="" type="image/x-icon">
+
+    <!--=============== REMIX ICONS ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="../css/styles.css">
+
+
+    <!--========= Website Favicon =========-->
+    <link rel="icon" type="image/png" href="../img/fav.png" />
+
+    <!--========== Website Title ==========-->
+    <title>Portfolio website</title>
+</head>
+<style>
+    body {
+        margin: 0;
+        flex-direction: column;
+        gap: 1.3rem;
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    .me {
+        background-color: var(--dark_gray);
+        padding: 30px;
+        margin: auto 10vw auto 10vw;
+        flex-direction: column;
+        gap: 3.5rem;
+    }
+
+    .info {
+        flex-direction: column;
+        gap: 1.0rem;
+        text-align: left;
+    }
+
+    .Skills>* {
+        padding: 20px;
+        text-align: left;
+    }
+
+
+    .button {
+        background-color: var(--white);
+        color: var(--background);
+    }
+
+    img {
+        max-width: 20vw;
+        margin-right: 20px;
+    }
+
+    /************** RESPONSIVE **************/
+    @media screen and (max-width :900px) {
+        .flex {
+            flex-direction: column;
+        }
+
+        img {
+            display: none;
+        }
+
+        .Skills>* {
+            text-align: center;
+        }
+    }
+</style>
+
+<body class="flex">
+    <div class="title">
+        <h1>Hello</h1>
+        <p>
+            My Name is ... <br>
+            Photographer and Web Designer.
+        </p>
+    </div>
+    <div class="me flex">
+        <div class="info flex">
+            <h2>Title</h2>
+            <div class="flex">
+                <img src="../img/project3.jpg" alt="">
+                <p>
+                    Some text about me. Some text about me. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                    occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+                    consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                    enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat.
+                </p>
+
+            </div>
+
+        </div>
+        <hr>
+        <div>
+            <h2>My Skills</h2>
+            <div class="flex Skills">
+                <ul>
+                    <li><i class="ri-html5-line"></i> HTML5</li>
+                    <li><i class="ri-css3-line"></i> CSS3</li>
+                </ul>
+                <ul>
+                    <li><i class="ri-code-line"></i> PHP</li>
+                    <li><i class="ri-code-box-line"></i> JS</li>
+                </ul>
+                <ul>
+                    <li><i class="ri-pencil-ruler-line"></i> Web design</li>
+                    <li><i class="ri-pantone-line"></i> Figma</li>
+                </ul>
+                <ul>
+                    <li><i class="ri-image-line"></i> Photographie</li>
+                    <li><i class="ri-brush-line"></i> Paint</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+
+        <!-- Insert your CV -->
+        <a download="" href="../pdf/my_resume.pdf" class="button" target="_blank">
+            Download CV <i class="ri-download-line"></i>
+        </a>
+    </div>
+    <footer>
+        <a href="../../index.html">Home page</a>
+        <p>© Léa Platel - All rigths reserved</p>
+    </footer>
+</body>
+
+</html>
